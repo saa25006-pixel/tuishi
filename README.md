@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ja" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -30,9 +31,6 @@
     <style>
         .diagonal-bg {
             clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-        }
-        .diagonal-bg-reverse {
-            clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
         }
     </style>
 </head>
@@ -73,7 +71,8 @@
                 名水の都が育んだ、<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-saijo-blue to-teal-600">3つの奇跡の「推し」</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-                西日本最高峰「石鎚山」から湧き出る名水「うちぬき」。豊かな自然と受け継がれる伝統が生み出した、極上の品々をあなたに。
+                西日本最高峰「石鎚山」から湧き出る名水「うちぬき」。豊かな自然と受け継がれる伝統、整理、そして<br class="hidden md:inline">
+                <a href="https://ehm-saijo-ah.esnet.ed.jp/" target="_blank" rel="noopener noreferrer" class="font-bold text-saijo-blue border-b-2 border-saijo-blue hover:text-sky-700 hover:border-sky-700 transition-colors">愛媛県立西条農業高等学校</a>の情熱が生み出した極上の品々をあなたに。
             </p>
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="#diagnostic" class="px-8 py-4 bg-saijo-blue hover:bg-sky-700 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all flex items-center space-x-2">
@@ -103,7 +102,6 @@
             <!-- Water Showcase Image -->
             <div class="relative rounded-3xl overflow-hidden shadow-xl max-w-4xl mx-auto h-64 md:h-96 group">
                 <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1600&q=80" 
-                     data-fallback="https://placehold.co/1200x600/0077c2/ffffff?text=Uthinuki+Water"
                      alt="うちぬきの清流イメージ" 
                      class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/20 to-transparent flex flex-col justify-end p-6 md:p-10 text-left">
@@ -120,7 +118,7 @@
     <!-- Specialties Presentation -->
     <section class="py-16 md:py-24 space-y-24 md:space-y-36">
 
-        <!-- Specialty 1: Atago Persimmon (Using image_effcc2.jpg) -->
+        <!-- Specialty 1: Atago Persimmon -->
         <div id="persimmon" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
                 <div class="lg:col-span-5 mb-8 lg:mb-0">
@@ -153,15 +151,14 @@
                     </div>
                 </div>
                 <div class="lg:col-span-7 space-y-6">
-                    <!-- Image Card using image_effcc2.jpg -->
+                    <!-- Image Card using image_f0d2f3.jpg -->
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[16/10] group border-4 border-white bg-white">
-                        <img src="./image_effcc2.jpg" 
-                             data-fallback="https://placehold.co/1200x750/e05a2b/ffffff?text=Atago+Persimmon"
-                             alt="愛宕柿の吊るし柿風景" 
+                        <img src="image_f0d2f3.jpg" 
+                             alt="愛宕柿" 
                              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent flex items-end p-6">
                             <div>
-                                <span class="bg-saijo-persimmon text-white text-xs font-bold px-3 py-1 rounded-full shadow">西条の冬を彩る吊るし柿</span>
+                                <span class="bg-saijo-persimmon text-white text-xs font-bold px-3 py-1 rounded-full shadow">西条の冬を彩る美しい愛宕柿</span>
                             </div>
                         </div>
                     </div>
@@ -175,7 +172,7 @@
                         </h4>
                         <div class="grid md:grid-cols-2 gap-6 relative z-10">
                             <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
-                                <h5 class="font-bold text-lg mb-2">熟練 of 渋抜き技術</h5>
+                                <h5 class="font-bold text-lg mb-2">熟練の脱渋技術</h5>
                                 <p class="text-white/80 text-sm">渋みの元であるタンニンを完全に閉じ込め、本来の圧倒的な糖度（20度近くに達することも）を引き出します。</p>
                             </div>
                             <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
@@ -188,14 +185,13 @@
             </div>
         </div>
 
-        <!-- Specialty 2: Kinukawa Eggplant (Using image_effcfa.jpg) -->
+        <!-- Specialty 2: Kinukawa Eggplant -->
         <div id="eggplant" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
                 <div class="lg:col-span-7 order-last lg:order-first space-y-6">
-                    <!-- Image Card using image_effcfa.jpg -->
+                    <!-- Image Card using image_f0d337.jpg -->
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[16/10] group border-4 border-white bg-white">
-                        <img src="./image_effcfa.jpg" 
-                             data-fallback="https://placehold.co/1200x750/4a154b/ffffff?text=Kinukawa+Eggplant"
+                        <img src="image_f0d337.jpg" 
                              alt="絹皮なす" 
                              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent flex items-end p-6">
@@ -204,21 +200,29 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Dynamic Visual Layout -->
-                    <div class="bg-gradient-to-tr from-fuchsia-900 to-purple-800 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
+                    <!-- Dynamic Visual Layout + High School Collaboration (with Official Link) -->
+                    <div class="bg-gradient-to-tr from-fuchsia-950 to-purple-800 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
                         <div class="absolute left-0 bottom-0 opacity-10">
-                            <i data-lucide="leaf" class="w-48 h-48"></i>
+                            <i data-lucide="graduation-cap" class="w-48 h-48"></i>
                         </div>
-                        <h4 class="text-xl font-bold mb-4 flex items-center">
-                            <i data-lucide="sparkles" class="mr-2"></i> 絹皮なすの「推し」ポイント
+                        <h4 class="text-xl font-bold mb-4 flex items-center text-amber-300">
+                            <i data-lucide="graduation-cap" class="mr-2"></i> 
+                            <a href="https://ehm-saijo-ah.esnet.ed.jp/" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center space-x-1 decoration-amber-300">
+                                <span>西条農業高校</span>
+                                <i data-lucide="external-link" class="w-4 h-4 inline-block"></i>
+                            </a>
+                            <span class="ml-2 font-normal text-sm text-white/90">との共同研究・栽培技術</span>
                         </h4>
+                        <p class="text-white/90 text-sm mb-6 leading-relaxed">
+                            地元の「<a href="https://ehm-saijo-ah.esnet.ed.jp/" target="_blank" rel="noopener noreferrer" class="font-semibold underline hover:text-amber-200">愛媛県立西条農業高等学校</a>」の生徒たちは、この極上の食感を持つ『絹皮なす』の栽培研究を日々行っています。傷つきやすく安定生産が難しいこのナスを、最新の環境制御技術などを使いながら守り育て、品質の向上や普及PR活動に全力を注ぎました。高校生の情熱が、この伝統野菜の未来を力強く支えています。
+                        </p>
                         <div class="grid md:grid-cols-2 gap-6 relative z-10">
                             <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
-                                <h5 class="font-bold text-lg mb-2">「生」でも抜群のフルーティーさ</h5>
-                                <p class="text-white/80 text-sm">アクが驚くほど少なく、スライスするとまるでリンゴのように爽やかでほんのり甘い香りが広がります。</p>
+                                <h5 class="font-bold text-lg mb-2 text-amber-200">「生」でも抜群のジューシーさ</h5>
+                                <p class="text-white/80 text-sm">アクが非常に少なく、スライスするとまるでリンゴのように爽やかでほんのり甘い香りが広がります。</p>
                             </div>
                             <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
-                                <h5 class="font-bold text-lg mb-2">おすすめの料理</h5>
+                                <h5 class="font-bold text-lg mb-2 text-amber-200">おすすめの料理</h5>
                                 <p class="text-white/80 text-sm">まずは薄切りを浅漬けにして。または、厚切りを焼きナスにして、口の中でジュワッととろける食感をご堪能ください。</p>
                             </div>
                         </div>
@@ -256,7 +260,7 @@
             </div>
         </div>
 
-        <!-- Specialty 3: Ishizuchi Kurocha (Using image_effc86.jpg) -->
+        <!-- Specialty 3: Ishizuchi Kurocha -->
         <div id="tea" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
                 <div class="lg:col-span-5 mb-8 lg:mb-0">
@@ -289,10 +293,9 @@
                     </div>
                 </div>
                 <div class="lg:col-span-7 space-y-6">
-                    <!-- Image Card using image_effc86.jpg -->
+                    <!-- Image Card using image_f0d317.jpg -->
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl aspect-[16/10] group border-4 border-white bg-white">
-                        <img src="./image_effc86.jpg" 
-                             data-fallback="https://placehold.co/1200x750/556b2f/ffffff?text=Ishizuchi+Kurocha"
+                        <img src="image_f0d317.jpg" 
                              alt="石鎚黒茶" 
                              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
                         <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent flex items-end p-6">
@@ -301,21 +304,29 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Dynamic Visual Layout -->
-                    <div class="bg-gradient-to-tr from-stone-800 to-emerald-800 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
+                    <!-- Dynamic Visual Layout + High School Collaboration (with Official Link) -->
+                    <div class="bg-gradient-to-tr from-stone-800 to-emerald-900 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
                         <div class="absolute right-0 bottom-0 opacity-10">
-                            <i data-lucide="soup" class="w-48 h-48"></i>
+                            <i data-lucide="heart" class="w-48 h-48"></i>
                         </div>
-                        <h4 class="text-xl font-bold mb-4 flex items-center">
-                            <i data-lucide="sparkles" class="mr-2"></i> 石鎚黒茶の「推し」ポイント
+                        <h4 class="text-xl font-bold mb-4 flex items-center text-amber-200">
+                            <i data-lucide="heart" class="mr-2"></i> 
+                            <a href="https://ehm-saijo-ah.esnet.ed.jp/" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center space-x-1 decoration-amber-300">
+                                <span>西条農業高校</span>
+                                <i data-lucide="external-link" class="w-4 h-4 inline-block"></i>
+                            </a>
+                            <span class="ml-2 font-normal text-sm text-white/90">が紡ぐ伝統「石鎚黒茶」の未来</span>
                         </h4>
+                        <p class="text-white/90 text-sm mb-6 leading-relaxed">
+                            一度は後継者不足により存続の危機に直面した「石鎚黒茶」。その危機を救うため、<a href="https://ehm-saijo-ah.esnet.ed.jp/" target="_blank" rel="noopener noreferrer" class="font-semibold underline hover:text-amber-200">愛媛県立西条農業高等学校</a>の生徒たちが立ち上がりました。伝統の製法（糸状菌発酵＆乳酸発酵）を保存会の方々から学び、学校で独自の製造と研究を行っています。さらに新商品の開発や若い世代への積極的な普及など、素晴らしい伝統の灯火を守り続けています。
+                        </p>
                         <div class="grid md:grid-cols-2 gap-6 relative z-10">
                             <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
-                                <h5 class="font-bold text-lg mb-2">黄金に輝く上品な液体</h5>
+                                <h5 class="font-bold text-lg mb-2 text-amber-100">黄金に輝く上品な液体</h5>
                                 <p class="text-white/80 text-sm">丁寧に淹れると、えも言われぬ美しい黄金〜琥珀色。独特のほのかな酸味と甘みがお茶の概念を優しく広げてくれます。</p>
                             </div>
                             <div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20">
-                                <h5 class="font-bold text-lg mb-2">おすすめの飲み方</h5>
+                                <h5 class="font-bold text-lg mb-2 text-amber-100">おすすめの飲み方</h5>
                                 <p class="text-white/80 text-sm">温かくして豊かな香りを味わうのはもちろん、冷たく冷やした冷茶は夏の渇きを潤すのに抜群の美味しさです。</p>
                             </div>
                         </div>
@@ -536,30 +547,7 @@
             document.getElementById('q-result').classList.add('hidden');
             startQuiz();
         }
-
-        // Smart dynamic asset handling for preview systems
-        window.addEventListener('DOMContentLoaded', () => {
-            const images = document.querySelectorAll('img[data-fallback]');
-            images.forEach(img => {
-                // If standard load fails, switch to custom tailored beautiful fallback
-                img.addEventListener('error', () => {
-                    const fallback = img.getAttribute('data-fallback');
-                    if (fallback && img.src !== fallback) {
-                        img.src = fallback;
-                    }
-                });
-
-                // Fail-safe check in case of slow sandboxed connections
-                setTimeout(() => {
-                    if (img.naturalWidth === 0) {
-                        const fallback = img.getAttribute('data-fallback');
-                        if (fallback && img.src !== fallback) {
-                            img.src = fallback;
-                        }
-                    }
-                }, 1500);
-            });
-        });
     </script>
 </body>
 </html>
+    
